@@ -19,5 +19,26 @@
 
    where $\Delta x$ is the width of a slab and $x_i$ and $x_{i+1}$ are the
    coordinates of the left and right edge of slab $i$.
-   
-   
+
+   a. Write a C++ function to integrate a function $f(x)$ using the
+      trapezoid rule.  Your C++ function should take as input the number
+      of slabs, $N$, and the integrand, $f(x)$, using `std::function`, as
+      we saw in class.
+
+   b. Write a second C++ function to do Monte Carlo integration.  The interface
+      will be similar to your trapezoid function, but now $N$ will be the number
+      of random points.
+
+   c. Write a program that integrates
+
+      $$I = \int_{-5}^5 e^{-x^2} dx$$
+
+      using both the trapezoid rule and Monte Carlo.  Vary N
+      (say from 8 to 1024, by doubling), and have your program output
+      a table with: $N$, trapezoid answer, MC answer.
+
+    d. Now do the same, but for the integral:
+
+       $$I = \int_0^2 \sin^2 \left ( \frac{1}{x (2-x)} \right ) dx$$
+
+      (you might want to plot the integrand to see the structure).
