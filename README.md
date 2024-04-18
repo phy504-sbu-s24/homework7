@@ -41,4 +41,4 @@
 
        $$I = \int_0^2 \sin^2 \left ( \frac{1}{x (2-x)} \right ) dx$$
 
-      (you might want to plot the integrand to see the structure).
+       (you might want to plot the integrand to see the structure).
