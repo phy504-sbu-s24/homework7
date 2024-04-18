@@ -39,6 +39,8 @@
 
    d. Now do the same, but for the integral:
 
-      $$I = \int_0^2 \sin^2 \left ( \frac{1}{x (2-x)} \right ) dx$$
+      $$I = \int_0^2 \sin^2 \left ( \frac{1}{x (2-x) + \epsilon} \right ) dx$$
 
-      (you might want to plot the integrand to see the structure).
+      where $\epsilon \approx 10^{12}$ is there to prevent dividing by zero.
+
+      You might want to plot this integrand to see the structure.
