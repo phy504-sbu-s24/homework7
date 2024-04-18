@@ -15,7 +15,7 @@
    Given a function, $f(x)$, defined on $[a, b]$, we divide the domain
    into $N$ slabs, and the integral is approximated as:
 
-   $$I = \frac{1}{2} \Delta x \sum_{i=1}^N \left ( f(x_i) + f(x_{i+1}) \right )
+   $$I = \frac{1}{2} \Delta x \sum_{i=1}^N \left ( f(x_i) + f(x_{i+1}) \right )$$
 
    where $\Delta x$ is the width of a slab and $x_i$ and $x_{i+1}$ are the
    coordinates of the left and right edge of slab $i$.
