@@ -37,8 +37,8 @@
       (say from 8 to 1024, by doubling), and have your program output
       a table with: $N$, trapezoid answer, MC answer.
 
-    d. Now do the same, but for the integral:
+   d. Now do the same, but for the integral:
 
-       $$I = \int_0^2 \sin^2 \left ( \frac{1}{x (2-x)} \right ) dx$$
+      $$I = \int_0^2 \sin^2 \left ( \frac{1}{x (2-x)} \right ) dx$$
 
-       (you might want to plot the integrand to see the structure).
+      (you might want to plot the integrand to see the structure).
